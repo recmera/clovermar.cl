@@ -47,6 +47,9 @@
     padding: 0.2rem 1rem;
     height: 100%;
 }
+.nav-links:hover {
+    color:#44a82b;
+}
 .nav-links-mobile {
     display: none;
 }
