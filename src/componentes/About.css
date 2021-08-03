@@ -6,8 +6,13 @@
     display: flex;
     text-decoration: none;
     text-align: center;
+    padding: 10px 10px 10px 10px;
     
 }
 .title {
     text-decoration: none;
+}
+.img {
+    width: 80%;
+    padding-top: 20px;
 }
