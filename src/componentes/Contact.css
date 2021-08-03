@@ -1,0 +1,17 @@
+.column {
+    flex: 50%;
+    
+}
+.row {
+    display: flex;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 30px;
+    
+}
+.icon-text{
+    display: flex;
+    align-items: center;
+    
+    
+}
