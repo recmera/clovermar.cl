@@ -1,0 +1,13 @@
+.column {
+    flex: 50%;
+    
+}
+.row {
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.title {
+    text-decoration: none;
+}
