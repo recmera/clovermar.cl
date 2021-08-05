@@ -6,7 +6,6 @@ import  Products  from './componentes/Products';
 import  Contact  from './componentes/Contact';
 import Footer from './componentes/Footer';
 import './App.css';
-import Video from './images/video.mp4'
 
 function App() {
   return (
@@ -25,11 +24,7 @@ function App() {
               <Contact/>
             </Route>
             <Route path='/'>
-              <div className='video-container'>
-                <video id="background-video" loop autoplay>
-                  <source src={Video} type="video/mp4"/>
-                </video>
-              </div>
+              
               
             </Route>
           </Switch>
