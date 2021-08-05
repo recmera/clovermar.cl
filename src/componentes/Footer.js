@@ -5,7 +5,7 @@ import './Footer.css'
 function Footer() {
     return (
         <div className='footer-container'>
-            <div className='footer.logo'>
+            <div className='footer-logo'>
                 <Link to='/' className='social-logo'>
                     <a>CLOVERMAR</a>
                 </Link>

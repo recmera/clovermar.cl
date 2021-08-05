@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import  Navbar  from './componentes/Navbar';
 import  About  from './componentes/About';
@@ -24,7 +24,7 @@ function App() {
               <Contact/>
             </Route>
             <Route path='/'>
-              
+              <About/>
               
             </Route>
           </Switch>
