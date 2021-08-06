@@ -49,11 +49,14 @@ function Navbar() {
                                 Nuestros productos
                             </Link>
                         </li>
+                        {/*
                         <li>
                             <Link to='/centros-de-cultivo' className='nav-links' onClick={closeMobileMenu}>
                                 Centros de cultivo
                             </Link>
                         </li>
+
+                        */}
                         <li>
                             <Link to='/certificaciones' className='nav-links' onClick={closeMobileMenu}>
                                 Certificaciones

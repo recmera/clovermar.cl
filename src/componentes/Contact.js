@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useRef, useEffect, useState } from 'react'
 import './Contact.css'
 import CallIcon from '@material-ui/icons/Call';
 import EmailIcon from '@material-ui/icons/Email';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
+
 
 function Contact() {
     return (
@@ -35,8 +36,8 @@ function Contact() {
 
             </div>
 
-            <div className='column'>
-
+            <div id='map-container' className='column'>
+                
             </div>
         </div>
     )
