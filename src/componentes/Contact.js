@@ -15,22 +15,23 @@ function Contact() {
                    Contáctenos de Lunes a Viernes entre 9:00hrs a 18:30hrs o complete el
                    formulario con su mensaje y le responderemos a la brevedad.
                 </p>
+                <br></br>
                 <div className='icon-text'>
-                    <CallIcon></CallIcon>
+                    <CallIcon className='icon'></CallIcon>
                     <h5>+56 5 51369877</h5>
                 </div>
         
-                <hr></hr>
+                
 
                 <div className='icon-text'>
-                    <EmailIcon></EmailIcon>
+                    <EmailIcon className='icon'></EmailIcon>
                     <h5>info@gagaga.ad</h5>
                 </div>
 
-                <hr></hr>
+                
 
                 <div className='icon-text'>
-                    <LocationOnIcon></LocationOnIcon>
+                    <LocationOnIcon className='icon' ></LocationOnIcon>
                     <h5>Av. Apoquindo 4501 Oficina 1603, Las Condes, Santiago - Chile</h5>
                 </div>
 
@@ -38,6 +39,7 @@ function Contact() {
 
             <div id='map-container' className='column'>
                 
+            
             </div>
         </div>
     )
