@@ -78,7 +78,7 @@
     .nav-menu {
         display: flex;
         flex-direction: column;
-        width: 100.5%;
+        width: 101%;
         height: 110vh;
         position: absolute;
         top: 50px;
@@ -89,7 +89,7 @@
     }
     .nav-menu.active {
         background: #242222;
-        left: -5.7%;
+        left: -9%;
         opacity: 1;
         transition: all 0.2s ease-out;
         z-index: 1;
@@ -98,7 +98,7 @@
     .nav-links {
         text-align: center;
         padding: 2rem;
-        width: 90.5%;
+        width: 85%;
         height: 10px;
         display: table;
     }

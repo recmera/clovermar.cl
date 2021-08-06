@@ -11,7 +11,7 @@ function Footer() {
                 </Link>
             </div>
             <small className='website-rights'>
-                Clovermar S.A. | Ancud blablalbalab | teléfono: +33 2 22222222 | info@gagaga.ad
+                Clovermar S.A. | teléfono: +33 2 22222222 | info@gagaga.ad
             </small>
         </div>
     )
