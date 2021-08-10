@@ -23,13 +23,13 @@ function Products() {
                             
                             <Link to='/productos/choritos1'>
                                 <img className='img' src={image} alt='import'></img>
-                                <h3>Skin pack de carne</h3>
+                               <h3>Skian pack de carne</h3>
                             </Link>
                         </li>
                         <li className='products'>
                             <Link to='/productos/choritos2'>
                                 <img className='img' src={image} alt='import'></img>
-                                <h3>Skin pack de carne</h3>
+                                <h3 className='product-title'>a</h3>
                             </Link>
                         </li>
                         <li className='products'>

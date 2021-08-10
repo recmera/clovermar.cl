@@ -7,15 +7,29 @@
     
 .products {
     display: table;
+    flex-direction: column;
     border-radius: 1px;
-    border-left: 5px solid #bf930d;
-    background-color: rgb(225, 225, 225);
+    background-color: transparent;
     margin-bottom: 15px;
-    padding: 30px;
-    width: 200px;
+    padding: 10px;
+    width: 180px;
     height: 150px;
+    text-align: center;
+    
+}
+.img {
+    display: center;
+    height: 101%;
+    width: 101%;
+}
+h3 {
+    text-decoration: none !important;
+    color: rgb(87, 84, 84);
+    font-size: 1rem;
 
 }
+
+
 @media screen and (max-width: 960px) {
    
     .row{
