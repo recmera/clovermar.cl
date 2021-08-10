@@ -12,8 +12,7 @@ function Contact() {
                 <h2>Escríbanos un mensaje </h2>
                 <hr></hr>
                 <p className='text'>
-                   Contáctenos de Lunes a Viernes entre 9:00hrs a 18:30hrs o complete el
-                   formulario con su mensaje y le responderemos a la brevedad.
+                   Contáctenos de Lunes a Viernes entre 9:00hrs a 18:30hrs y le responderemos a la brevedad.
                 </p>
                 <br></br>
                 <div className='icon-text'>
@@ -37,9 +36,11 @@ function Contact() {
 
             </div>
 
-            <div id='map-container' className='column'>
-                
-            
+            <div className='column'>
+                <h2>Casa Matriz</h2>
+                <div className='map-container'>
+                        <p> acá va un mapa </p>
+                </div>
             </div>
         </div>
     )
