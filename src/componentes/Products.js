@@ -11,7 +11,7 @@ function Products() {
             <div className='column'>
                 <h2>Choritos</h2>
                 <hr></hr>
-                <small>
+                <small className='text'>
                     Los choritos aportan con una gran cantidad de nutrientes y
                     por lo general contienen pocas calorías, tienen bajos niveles
                     de colesterol, alto porcentaje de fosfolípidos, triglicéridos
@@ -68,7 +68,7 @@ function Products() {
             <div className='column'>
                 <h2>Salmón</h2>
                 <hr></hr>
-                <small>
+                <small className='text'>
                     Los choritos aportan con una gran cantidad de nutrientes y
                     por lo general contienen pocas calorías, tienen bajos niveles
                     de colesterol, alto porcentaje de fosfolípidos, triglicéridos

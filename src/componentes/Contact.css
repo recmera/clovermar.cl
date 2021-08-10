@@ -1,13 +1,14 @@
 .column {
     flex: 50%;
 }
+
 .row {
     display: flex;
     text-decoration: none;
     text-align: left;
     margin-top: 10px;
-    
 }
+
 .icon-text{
     
     display: flex;
@@ -16,21 +17,25 @@
     border-left: 5px solid #bf930d;
     background-color: rgb(225, 225, 225);
     margin-bottom: 15px;
-    
 }
+
 h5 {
     padding: 5px;
     margin-left: 1px;
 }
+
 .icon {
     margin-left: 10px;
 }
+
+
 .map-container {
     height: 400px;
     width: 500px;
     margin-left: 20px;
     background-color: rgb(225,225,225);
 }
+
 @media screen and (max-width: 960px) {
    
     .row{
