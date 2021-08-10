@@ -33,9 +33,9 @@ function Products() {
                             </Link>
                         </li>
                         <li className='products'>
-                            <Link to='/choritos1'>
+                            <Link to='/productos/choritos3'>
                                 <img className='img' src={image} alt='import'></img>
-                                <h3>Skin pack de carne</h3>
+                                <h3>jaime</h3>
                             </Link>
                         </li>
 
@@ -43,19 +43,19 @@ function Products() {
 
                     <ul>
                         <li className='products'>
-                            <Link to='/choritos1'>
+                            <Link to='/productos/choritos4'>
                                 <img className='img' src={image} alt='import'></img>
                                 <h3>Skin pack de carne</h3>
                             </Link>
                         </li>
                         <li className='products'>
-                            <Link to='/choritos1'>
+                            <Link to='/productos/choritos5'>
                                 <img className='img' src={image} alt='import'></img>
                                 <h3>Skin pack de carne</h3>
                             </Link>
                         </li>
                         <li className='products'>
-                            <Link to='/choritos1'>
+                            <Link to='/productos/choritos6'>
                                 <img className='img' src={image} alt='import'></img>
                                 <h3>Skin pack de carne</h3>
                             </Link>
@@ -77,19 +77,19 @@ function Products() {
                 <div className='row'>
                     <ul>
                         <li className='products'>
-                            <Link to='/choritos1'>
+                            <Link to='/productos/salmon1'>
                                 <img className='img' src={image} alt='import'></img>
                                 <h3>Skin pack de carne</h3>
                             </Link>
                         </li>
                         <li className='products'>
-                            <Link to='/choritos1'>
+                            <Link to='/productos/salmon2'>
                                 <img className='img' src={image} alt='import'></img>
                                 <h3>Skin pack de carne</h3>
                             </Link>
                         </li>
                         <li className='products'>
-                            <Link to='/choritos1'>
+                            <Link to='/productos/salmon3'>
                                 <img className='img' src={image} alt='import'></img>
                                 <h3>Skin pack de carne</h3>
                             </Link>

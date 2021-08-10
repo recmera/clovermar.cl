@@ -20,22 +20,80 @@ function App() {
 
             {/* Choritos */}
             <Route path="/productos/choritos1">
-                <Item/>
+
+
+                <Item 
+                  title='Choros rojos legendarios' 
+                  description='Choritos apanados pre fritos'
+                  presentation='Bolsas de 500gr, 1 kg, 1 lb, 2 lb, Caja Master de 5 kg y 10 lb'
+                  sizes='
+                      40 - 50 ,
+                      50 - 70 ,
+                      60 - 80'
+                  duration='24 meses desde la fecha de producción'
+                />
+
+
             </Route>
             <Route path="/productos/choritos2">
-                <Item/>
+                <Item
+                  title='Choros rojos legendarios' 
+                  description='Choritos apanados pre fritos'
+                  presentation='Bolsas de 500gr, 1 kg, 1 lb, 2 lb, Caja Master de 5 kg y 10 lb'
+                  sizes='
+                      40 - 50 ,
+                      50 - 70 ,
+                      60 - 80'
+                  duration='24 meses desde la fecha de producción'
+                />
             </Route>
             <Route path="/productos/choritos3">
-                <Item/>
+                <Item
+                  title='Choros rojos legendarios' 
+                  description='Choritos apanados pre fritos'
+                  presentation='Bolsas de 500gr, 1 kg, 1 lb, 2 lb, Caja Master de 5 kg y 10 lb'
+                  sizes='
+                      40 - 50 ,
+                      50 - 70 ,
+                      60 - 80'
+                  duration='24 meses desde la fecha de producción'
+                />
             </Route>
             <Route path="/productos/choritos4">
-                <Item/>
+                <Item
+                  title='Choros rojos legendarios' 
+                  description='Choritos apanados pre fritos'
+                  presentation='Bolsas de 500gr, 1 kg, 1 lb, 2 lb, Caja Master de 5 kg y 10 lb'
+                  sizes='
+                      40 - 50 ,
+                      50 - 70 ,
+                      60 - 80'
+                  duration='24 meses desde la fecha de producción'
+                />
             </Route>
             <Route path="/productos/choritos5">
-                <Item/>
+                <Item
+                  title='Choros rojos legendarios' 
+                  description='Choritos apanados pre fritos'
+                  presentation='Bolsas de 500gr, 1 kg, 1 lb, 2 lb, Caja Master de 5 kg y 10 lb'
+                  sizes='
+                      40 - 50 ,
+                      50 - 70 ,
+                      60 - 80'
+                  duration='24 meses desde la fecha de producción'
+                />
             </Route>
             <Route path="/productos/choritos6">
-                <Item/>
+                <Item
+                  title='Choros rojos legendarios' 
+                  description='Choritos apanados pre fritos'
+                  presentation='Bolsas de 500gr, 1 kg, 1 lb, 2 lb, Caja Master de 5 kg y 10 lb'
+                  sizes='
+                      40 - 50 ,
+                      50 - 70 ,
+                      60 - 80'
+                  duration='24 meses desde la fecha de producción'
+                />
             </Route>
 
 

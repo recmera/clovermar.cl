@@ -2,29 +2,24 @@ import React from 'react'
 import './Item.css'
 import image from '../images/mariscos.jpg'
 
-function Choritos() {
+
+function Choritos(props) {
     return (
         <div className='row'>
 
             <div className='column'>
-                <h2>Titulo</h2>
+                <h2>{props.title}</h2>
                 <hr></hr>
-                <p>hola esta es una descripción</p>
+                <h3>Descripción:</h3>
+                
+                <p>{props.description}</p>
                 <h3> Presentaciones:</h3>
-                <p>
-                    Bolsas de 500gr, 1 kg, 1 lb, 2 lb <br></br>
-                    Caja Master de 5 kg y 10 lb
-                </p>
+                <p>{props.presentation}</p>
                 <h3> Tamaños: (unit/kg)</h3>
-                <p>
-                    40 - 50 <br></br>
-                    50 - 70 <br></br>
-                    60 - 80 <br></br>
-                </p>
+                <p>{props.sizes}</p>
+                
                 <h3>Duración:</h3>
-                <p>
-                    24 meses desde la fecha de producción
-                </p>
+                <p>{props.duration}</p>
             </div>
             
             
