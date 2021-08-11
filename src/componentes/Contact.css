@@ -41,13 +41,10 @@ h5 {
     .row{
         flex-direction: column;
         position: relative;
-    }
-    .column {
         margin-bottom: 50px;
-
     }
     .map-container {
-        height: 320px;
-        width: 400px;
+        height: 240px;
+        width: 300px;
     }
 }

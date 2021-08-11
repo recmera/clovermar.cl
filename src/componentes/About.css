@@ -26,9 +26,7 @@
     .row{
         flex-direction: column;
         position: relative;
-    }
-    .column {
         margin-bottom: 50px;
-
     }
+
 }

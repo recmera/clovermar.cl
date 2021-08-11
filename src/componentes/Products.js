@@ -6,8 +6,6 @@ import './Products.css'
 function Products() {
     return (
         <div className='row'>
-
-
             <div className='column'>
                 <h2>Choritos</h2>
                 <hr></hr>

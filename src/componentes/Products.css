@@ -1,8 +1,12 @@
-.row{
-    margin-bottom: 50px;
-}
+
 .column {
     display: inline-block;
+    flex: 50%;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+
 }
     
 .products {
@@ -15,7 +19,7 @@
     width: 180px;
     height: 150px;
     text-align: center;
-    margin-left: 60px;
+    margin-left: 50px;
     
 }
 .img {
@@ -41,6 +45,9 @@ a{
         flex-direction: column;
         position: relative;
         
+    }
+    .column {
+        margin-bottom: 50px;
     }
     .column > .products {
         display: inline-block;
