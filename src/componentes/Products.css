@@ -1,4 +1,6 @@
-
+.row {
+    margin-bottom: 50px;
+}
 .column {
     display: inline-block;
     flex: 50%;
@@ -6,7 +8,6 @@
     margin-top: 10px;
     margin-left: 5%;
     margin-right: 5%;
-
 }
     
 .products {

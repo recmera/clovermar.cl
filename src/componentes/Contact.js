@@ -3,7 +3,7 @@ import './Contact.css'
 import CallIcon from '@material-ui/icons/Call';
 import EmailIcon from '@material-ui/icons/Email';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import MapView from './react-leaflet';
 
 
 function Contact() {
@@ -36,17 +36,9 @@ function Contact() {
             <div className='column'>
                 <h2>Casa Matriz</h2>
                 <div id='mapid' className='map-container'>
-                    <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={false}>
-                        <TileLayer
-                            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-                            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                        />
-                        <Marker position={[51.505, -0.09]}>
-                            <Popup>
-                            A pretty CSS3 popup. <br /> Easily customizable.
-                            </Popup>
-                        </Marker>
-                    </MapContainer>
+                    {/*
+                        <MapView zoom={8} center={{ lat: 51.5287718, lng: -0.2416804 }} />
+                    */}
                 </div>
             </div>
         </div>

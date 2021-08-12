@@ -1,3 +1,6 @@
+.row {
+    margin-bottom: 50px;
+}
 .column {
     flex: 50%;
 }
@@ -27,9 +30,8 @@ h5 {
 .icon {
     margin-left: 10px;
 }
-/*#mapid { height: 180px; }*/
 
-.map-container {
+map.container {
     height: 400px;
     width: 500px;
     margin-left: 20px;
